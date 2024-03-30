@@ -1,10 +1,12 @@
+.earth_img{
+  position: fixed;
+  top: 35%;
+  left: 60%;
+  animation: spin 50s linear infinite;
+}
+
+
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  
-  .rotate {
-    animation: spin infinite linear;
-    animation-duration: 2s; /* Adjust duration for desired speed */
+   100%{-webkit-transform: rotate(360deg);}
   }
   
