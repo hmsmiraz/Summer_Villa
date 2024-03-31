@@ -5,7 +5,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { SlCalender } from "react-icons/sl";
 import { FaUserCircle, FaSearch } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import Carousel from "../../Component/Carousel";
 
 const Home = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -188,14 +187,14 @@ const Home = () => {
 
         {/* Carousel div end */}
       </div>
-      
+
       {/* img div */}
-      <div className="absolute">
-        <div className="w-[40%] flex justify-center items-center h-screen">
+      <div className="absolute ">
+        <div className="w-[40%] flex justify-center items-center h-screen ">
           <img
             src="/public/earth.png"
             alt="Rotating Image"
-            className="w-72 h-72 earth_img"
+            className="w-96 h-96 earth_img"
           />
         </div>
       </div>

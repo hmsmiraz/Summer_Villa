@@ -38,7 +38,7 @@
 
 .earth_img{
   position: fixed;
-  top: 35%;
+  top: 30%;
   left: 60%;
   animation: spin 50s linear infinite;
 }
