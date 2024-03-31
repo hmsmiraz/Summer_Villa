@@ -1,12 +1,12 @@
 /* Initial state */
 .hover\:bg-cyan-700 .bg-cyan-700::after {
-  content: ""; 
-  display: block; 
-  position: absolute; 
-  top: 50%; 
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) translateX(-100%); 
-  transition: transform 0.1s ease-in-out; 
+  transform: translate(-50%, -50%) translateX(-100%);
+  transition: transform 0.1s ease-in-out;
 }
 
 .hover\:bg-cyan-700:hover .bg-cyan-700::after {
@@ -14,37 +14,35 @@
 }
 
 .hover\:bg-cyan-700 .bg-cyan-700::after svg {
-  display: block; 
+  display: block;
 }
 
 .hover\:bg-cyan-700 p {
-  visibility: visible; 
+  visibility: visible;
 }
 
 .hover\:bg-cyan-700:hover p {
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .hover\:bg-cyan-700:hover p::after {
-  content: "Search Here"; 
-  visibility: visible; 
+  content: "Search Here";
+  visibility: visible;
   white-space: nowrap;
   position: absolute;
   transform: translate(-130%, -7%);
   color: white;
 }
 
-
-
-.earth_img{
+.earth_img {
   position: fixed;
   top: 30%;
   left: 60%;
   animation: spin 50s linear infinite;
 }
 
-
 @keyframes spin {
-   100%{-webkit-transform: rotate(360deg);}
+  100% {
+    -webkit-transform: rotate(360deg);
   }
-  
+}
